@@ -1,0 +1,26 @@
+target
+bin
+.idea/libraries
+
+######################
+# OS generated files #
+######################
+.DS_Store*
+Thumbs.db
+
+######################
+#  IDEA CONFIG FILES #
+######################
+.idea/*
+!.idea/runConfigurations/**.xml
+**.iml
+!.mrfideaconfig/**.iml
+
+#######################
+# VSCODE CONFIG FILES #
+#######################
+.vscode/
+**/.settings
+**/.classpath
+**/.factorypath
+**/.project
