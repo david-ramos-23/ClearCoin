@@ -25,6 +25,7 @@ mvn spring-boot:run
 - Auto-documented API http://localhost:8080/swagger-ui.html
 - User
 - Wallet 
+- Dockerized Application
 
 ## Possible Ideas of Improvements
 - Add MongoDB as storage layer.
