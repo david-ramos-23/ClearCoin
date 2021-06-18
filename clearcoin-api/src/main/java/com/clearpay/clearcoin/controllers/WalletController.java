@@ -1,7 +1,7 @@
 package com.clearpay.clearcoin.controllers;
 
 import com.clearpay.clearcoin.exceptions.WalletNotFoundException;
-import com.clearpay.clearcoin.model.TransferOrder;
+import com.clearpay.clearcoin.model.Transfer;
 import com.clearpay.clearcoin.model.Wallet;
 import com.clearpay.clearcoin.services.MemoryData;
 import com.clearpay.clearcoin.services.WalletService;
@@ -51,10 +51,10 @@ public class WalletController {
         return wallet;
     }
 
-    @PostMapping(value= "/sendMoney", consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+    @PostMapping(value= "/transfer", consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     @ResponseStatus(HttpStatus.OK)
-    public void sendMoney(@RequestBody TransferOrder transferOrder) {
-        walletService.sendMoney(transferOrder);
+    public void transfer(@RequestBody Transfer transfer) {
+        walletService.sendMoney(transfer);
     }
 
 }

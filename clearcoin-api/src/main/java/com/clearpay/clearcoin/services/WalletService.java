@@ -3,7 +3,7 @@ package com.clearpay.clearcoin.services;
 import com.clearpay.clearcoin.exceptions.InvalidAmountException;
 import com.clearpay.clearcoin.exceptions.OriginAndDestinationTransferException;
 import com.clearpay.clearcoin.exceptions.WalletNotFoundException;
-import com.clearpay.clearcoin.model.TransferOrder;
+import com.clearpay.clearcoin.model.Transfer;
 import com.clearpay.clearcoin.model.Wallet;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +19,9 @@ public class WalletService {
         this.db = db;
     }
 
-    public void sendMoney(TransferOrder transferOrder) {
-        Wallet originWallet = db.getWalletById(transferOrder.getOriginWalletId());
-        Wallet destinationWallet = db.getWalletById(transferOrder.getDestinationWalletId());
+    public void sendMoney(Transfer transfer) {
+        Wallet originWallet = db.getWalletById(transfer.getOriginWalletId());
+        Wallet destinationWallet = db.getWalletById(transfer.getDestinationWalletId());
 
         if (originWallet == null || destinationWallet == null) {
             log.error("Origin wallet ({}) or destination wallet ({}) not found",
@@ -35,17 +35,17 @@ public class WalletService {
             throw new OriginAndDestinationTransferException();
         }
 
-        if (transferOrder.getAmount() <= 0) {
-            log.error("The transferOrder amount is equal or smaller than 0: {}", transferOrder.getAmount());
+        if (transfer.getAmount() <= 0) {
+            log.error("The transferOrder amount is equal or smaller than 0: {}", transfer.getAmount());
             throw new InvalidAmountException();
         }
 
-        if (originWallet.getAmount() < transferOrder.getAmount()) {
-            log.error("The transferOrder amount is higher than originWallet amount : {}", transferOrder.getAmount());
+        if (originWallet.getAmount() < transfer.getAmount()) {
+            log.error("The transferOrder amount is higher than originWallet amount : {}", transfer.getAmount());
             throw new InvalidAmountException();
         }
 
-        updateWalletBalance(originWallet, destinationWallet, transferOrder.getAmount());
+        updateWalletBalance(originWallet, destinationWallet, transfer.getAmount());
     }
 
     private void updateWalletBalance(Wallet originWallet, Wallet destinationWallet, Double amount) {

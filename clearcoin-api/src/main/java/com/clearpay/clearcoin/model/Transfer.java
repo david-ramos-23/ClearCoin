@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class TransferOrder {
+public class Transfer {
     private String originWalletId;
     private String destinationWalletId;
     private Double amount;

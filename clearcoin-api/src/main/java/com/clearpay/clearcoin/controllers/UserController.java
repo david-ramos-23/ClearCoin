@@ -33,21 +33,21 @@ public class UserController {
 
     @GetMapping("/{id}")
     public User getUserById(@PathVariable(value="id") int id) {
-        User customer = data.getUserById(id);
+        User user = data.getUserById(id);
 
-        if (customer == null) {
+        if (user == null) {
             log.error("User ID ({}) not found", id);
             throw new UserNotFoundException();
         }
 
-        return customer;
+        return user;
     }
 
     @GetMapping("/{id}/wallet")
     public List<Wallet> getUserWalletsById(@PathVariable(value="id") int id) {
-        User customer = data.getUserById(id);
+        User user = data.getUserById(id);
 
-        if (customer == null) {
+        if (user == null) {
             log.error("User ID ({}) not found", id);
             throw new UserNotFoundException();
         }

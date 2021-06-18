@@ -21,7 +21,7 @@ public class MemoryData {
     public void initializeData() {
         User user1 = new User(1, "David", "Ramos", "andara14@gmail.com");
         User user2 = new User(2, "Angel", "Ruiz", "angel.ruiz@gmail.com");
-        User user3 = new User(3, "Virginia", "Sanchez", "virginia.sanchez@gmail.com");
+        User user3 = new User(3, "Virginia", "Alcaide", "virginia.alcaide@gmail.com");
 
         Wallet wallet1 = new Wallet("ad55e955-1dde-40b1-a308-a6ed40cd13f0", 2303.94, 1);
         Wallet wallet2 = new Wallet("1161faf0-4e4f-41a9-aeef-6446918fdcb6", 23.0, 1);
