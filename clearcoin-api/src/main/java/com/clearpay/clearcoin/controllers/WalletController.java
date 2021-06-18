@@ -54,7 +54,7 @@ public class WalletController {
     @PostMapping(value= "/transfer", consumes = {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
     @ResponseStatus(HttpStatus.OK)
     public void transfer(@RequestBody Transfer transfer) {
-        walletService.sendMoney(transfer);
+        walletService.transfer(transfer);
     }
 
 }

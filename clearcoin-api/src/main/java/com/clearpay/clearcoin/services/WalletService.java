@@ -19,7 +19,7 @@ public class WalletService {
         this.db = db;
     }
 
-    public void sendMoney(Transfer transfer) {
+    public void transfer(Transfer transfer) {
         Wallet originWallet = db.getWalletById(transfer.getOriginWalletId());
         Wallet destinationWallet = db.getWalletById(transfer.getDestinationWalletId());
 
