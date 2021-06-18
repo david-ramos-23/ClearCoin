@@ -24,6 +24,9 @@ The app is build for production and place the code into `dist` folder
 - Styled Components (CSS-in-JS)
 - [React Data Table](https://github.com/jbetancur/react-data-table-component)
 
+## Bonus
+- Dockerized App
+
 ## Possible Ideas of Improvements
 - Transfer History
 - Update User Details

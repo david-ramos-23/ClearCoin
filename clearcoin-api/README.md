@@ -20,12 +20,14 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 mvn spring-boot:run
 ```
 
-## Features
+## ⭐️ Features
 
 - Auto-documented API http://localhost:8080/swagger-ui.html
-- User
-- Wallet 
-- Dockerized Application
+- UserController: Retrieve user data, including wallet details.
+- WalletController: Retrieve wallet data and execute transfers.
+
+## Bonus
+- Dockerized App
 
 ## Possible Ideas of Improvements
 - Add MongoDB as storage layer.
