@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormLogin snapshot is ok 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 40px 20px 20px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 300px;
+}
+
+.c2 {
+  font-size: 16px;
+  height: 38px;
+  background-color: #eefbf7;
+  padding: 0 .5rem;
+  color: #2d3134;
+  margin: 5px;
+  border: 1px solid #bfc5ca;
+  border-radius: 4px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.c2:focus {
+  border-color: #b2fce4;
+  box-shadow: 0 1px 1px #000,inset .75,0 0 8px #eaf5f7,.6;
+  outline: 0 none;
+}
+
+.c3 {
+  margin: 5px;
+  background: #b2fce4;
+  border: .125rem solid transparent;
+  border-radius: .75rem;
+  box-shadow: none;
+  color: #000;
+  font-weight: 400;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  font-size: 1.125rem;
+  padding: .75rem 1.125rem;
+}
+
+.c3:hover {
+  cursor: pointer;
+  background-color: #828282;
+  color: #fff;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <form
+      class="c1"
+    >
+      <input
+        class="c2"
+        name="email"
+        placeholder="email"
+        required=""
+        type="email"
+      />
+      <input
+        class="c2 password"
+        name="password"
+        placeholder="password"
+        required=""
+        type="password"
+      />
+      <button
+        class="c3"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,1138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User snapshot is ok 1`] = `
+.c12 {
+  position: relative;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  color: rgba(0,0,0,0.87);
+  background-color: #FFFFFF;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  background-color: #FFFFFF;
+  min-height: 56px;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0,0,0,.12);
+  border-bottom-style: solid;
+}
+
+.c15 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: normal;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0,0,0,0.87);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.c22 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: normal;
+  padding-left: 16px;
+  padding-right: 16px;
+  word-break: break-word;
+}
+
+.c16 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  max-width: 100%;
+  min-width: 100px;
+}
+
+.c19 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  max-width: 100%;
+  min-width: 100px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c23 {
+  font-weight: 400;
+}
+
+.c23 div:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: rgba(0,0,0,0.87);
+  background-color: #FFFFFF;
+  min-height: 48px;
+}
+
+.c21:not(:last-of-type) {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0,0,0,.12);
+}
+
+.c21:hover {
+  color: rgba(0,0,0,0.87);
+  background-color: #EEEEEE;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  border-bottom-color: #FFFFFF;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #FFFFFF;
+}
+
+.c21:hover {
+  cursor: pointer;
+}
+
+.c18 {
+  padding: 2px;
+  color: inherit;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  opacity: 0;
+}
+
+.c17 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  line-height: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c17:focus {
+  outline: none;
+  color: rgba(0,0,0,.54);
+}
+
+.c17:hover {
+  color: rgba(0,0,0,.54);
+}
+
+.c17 span.__rdt_custom_sort_icon__ i,
+.c17 span.__rdt_custom_sort_icon__ svg {
+  opacity: 0;
+  color: inherit;
+  font-size: 18px !important;
+  height: 18px !important;
+  width: 18px !important;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition-duration: 125ms;
+  transition-duration: 125ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.c17 span.__rdt_custom_sort_icon__.asc i,
+.c17 span.__rdt_custom_sort_icon__.asc svg {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c17:hover {
+  cursor: pointer;
+}
+
+.c17:hover span,
+.c17:hover span.__rdt_custom_sort_icon__ * {
+  opacity: 1;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  height: 100%;
+  font-weight: 400;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: inherit;
+  z-index: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e3f2fd;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0,0,0,0.87);
+  padding-left: 16px;
+  padding-right: 8px;
+  -webkit-transform: translate3d(0,-100%,0);
+  -ms-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+  -webkit-transition-duration: 125ms;
+  transition-duration: 125ms;
+  -webkit-transition-timing-function: cubic-bezier(0,0,0.2,1);
+  transition-timing-function: cubic-bezier(0,0,0.2,1);
+  will-change: transform;
+}
+
+.c1 {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 22px;
+  color: rgba(0,0,0,0.87);
+  background-color: #FFFFFF;
+  min-height: 56px;
+  padding-left: 16px;
+  padding-right: 8px;
+}
+
+.c2 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-weight: 400;
+}
+
+.c3 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 > * {
+  margin-left: 5px;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 4px 16px 4px 24px;
+  width: 100%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  background-color: #FFFFFF;
+  min-height: 52px;
+}
+
+.c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c10 {
+  position: relative;
+  width: 100%;
+  border-radius: inherit;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-height: 0;
+}
+
+.c11 {
+  position: relative;
+  width: 100%;
+  display: table;
+}
+
+.c28 {
+  cursor: pointer;
+  height: 24px;
+  min-width: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-left: 8px;
+  padding-right: 12px;
+  box-sizing: content-box;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  direction: ltr;
+}
+
+.c28::-ms-expand {
+  display: none;
+}
+
+.c28:disabled::-ms-expand {
+  background: #f60;
+}
+
+.c28 option {
+  color: initial;
+}
+
+.c27 {
+  position: relative;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-size: inherit;
+  color: inherit;
+  margin-top: 1px;
+}
+
+.c27 svg {
+  top: 0;
+  right: 0;
+  color: inherit;
+  position: absolute;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 8px;
+  padding-left: 8px;
+  width: 100%;
+  color: rgba(0,0,0,0.54);
+  font-size: 13px;
+  min-height: 56px;
+  background-color: #FFFFFF;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgba(0,0,0,.12);
+}
+
+.c31 {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  margin: px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: rgba(0,0,0,.54);
+  fill: rgba(0,0,0,.54);
+  background-color: transparent;
+}
+
+.c31:disabled {
+  cursor: unset;
+  color: rgba(0,0,0,.18);
+  fill: rgba(0,0,0,.18);
+}
+
+.c31:hover:not(:disabled) {
+  background-color: rgba(0,0,0,.12);
+}
+
+.c31:focus {
+  outline: none;
+  background-color: rgba(0,0,0,.12);
+}
+
+.c30 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.c25 {
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c29 {
+  margin: 0 24px;
+}
+
+.c26 {
+  margin: 0 4px;
+}
+
+.c8 {
+  height: 32px;
+  width: 200px;
+  border-radius: 3px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #e5e5e5;
+  padding: 0 32px 0 16px;
+}
+
+.c8:hover {
+  border: 1px solid #b2fce4;
+  cursor: pointer;
+}
+
+.c8:focus {
+  border: 1px solid #b2fce4;
+  cursor: pointer;
+}
+
+.c9 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 34px;
+  width: 32px;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: none;
+  color: black;
+  padding: 8px 32px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #b2fce4;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.c9:hover {
+  background-color: #828282;
+  color: #fff;
+  cursor: pointer;
+}
+
+.c0 {
+  width: 80%;
+  max-width: 1100px;
+}
+
+@media screen and (max-width:599px) {
+  .c30 {
+    width: 100%;
+    -webkit-box-pack: space-around;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
+    justify-content: space-around;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      aria-level="1"
+      class="c1 rdt_TableHeader"
+      role="heading"
+    >
+      <div
+        class="c2"
+      >
+        Registered Users
+      </div>
+      <div
+        class="c3"
+      />
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+        />
+        <div
+          class="c6"
+        />
+      </div>
+    </div>
+    <header
+      class="c7"
+    >
+      <input
+        aria-label="Search Input"
+        class="c8"
+        id="search"
+        placeholder="Filter By Name"
+        type="text"
+        value=""
+      />
+      <button
+        class="c9"
+        type="button"
+      >
+        X
+      </button>
+    </header>
+    <div
+      class="c10"
+    >
+      <div
+        class="c11"
+      >
+        <div
+          class="c12 rdt_Table"
+          role="table"
+        >
+          <div
+            class="c13 rdt_TableHead"
+            role="rowgroup"
+          >
+            <div
+              class="c14 rdt_TableHeadRow"
+              role="row"
+            >
+              <div
+                class="c15 c16 rdt_TableCol"
+              >
+                <div
+                  class="c17 rdt_TableCol_Sortable"
+                  id="column-id"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <div>
+                    User ID
+                  </div>
+                  <span
+                    class="c18"
+                  >
+                    ▲
+                  </span>
+                </div>
+              </div>
+              <div
+                class="c15 c16 rdt_TableCol"
+              >
+                <div
+                  class="c17 rdt_TableCol_Sortable"
+                  id="column-firstName"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <div>
+                    First Name
+                  </div>
+                  <span
+                    class="c18"
+                  >
+                    ▲
+                  </span>
+                </div>
+              </div>
+              <div
+                class="c15 c19 rdt_TableCol"
+              >
+                <div
+                  class="c17 rdt_TableCol_Sortable"
+                  id="column-lastName"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <span
+                    class="c18"
+                  >
+                    ▲
+                  </span>
+                  <div>
+                    Last Name
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c15 c16 rdt_TableCol"
+              >
+                <div
+                  class="c17 rdt_TableCol_Sortable"
+                  id="column-email"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <div>
+                    Email
+                  </div>
+                  <span
+                    class="c18"
+                  >
+                    ▲
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c20 rdt_TableBody"
+            offset="250px"
+            role="rowgroup"
+          >
+            <div
+              class="c21 rdt_TableRow"
+              id="row-1"
+              role="row"
+            >
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-ay7mHxaH6V-1"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  1
+                </div>
+              </div>
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-k9O_NLF0AX-1"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  David
+                </div>
+              </div>
+              <div
+                class="c22 c19 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-fCBXAAlBRY-1"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  Ramos
+                </div>
+              </div>
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-knRaFr2xWP-1"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  andara14@gmail.com
+                </div>
+              </div>
+            </div>
+            <div
+              class="c21 rdt_TableRow"
+              id="row-2"
+              role="row"
+            >
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-ay7mHxaH6V-2"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  2
+                </div>
+              </div>
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-k9O_NLF0AX-2"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  Angel
+                </div>
+              </div>
+              <div
+                class="c22 c19 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-fCBXAAlBRY-2"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  Ruiz
+                </div>
+              </div>
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-knRaFr2xWP-2"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  angel.ruiz@gmail.com
+                </div>
+              </div>
+            </div>
+            <div
+              class="c21 rdt_TableRow"
+              id="row-3"
+              role="row"
+            >
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-ay7mHxaH6V-3"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  3
+                </div>
+              </div>
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-k9O_NLF0AX-3"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  Virginia
+                </div>
+              </div>
+              <div
+                class="c22 c19 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-fCBXAAlBRY-3"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  Alcaide
+                </div>
+              </div>
+              <div
+                class="c22 c16 c23 rdt_TableCell"
+                data-tag="allowRowEvents"
+                id="cell-knRaFr2xWP-3"
+                role="gridcell"
+              >
+                <div
+                  data-tag="allowRowEvents"
+                >
+                  virginia.alcaide@gmail.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <nav
+        class="c24 rdt_Pagination"
+      >
+        <span
+          class="c25 c26"
+        >
+          Rows per page:
+        </span>
+        <div
+          class="c27"
+        >
+          <select
+            aria-label="Rows per page:"
+            class="c28"
+          >
+            <option
+              selected=""
+              value="10"
+            >
+              10
+            </option>
+            <option
+              value="15"
+            >
+              15
+            </option>
+            <option
+              value="20"
+            >
+              20
+            </option>
+            <option
+              value="25"
+            >
+              25
+            </option>
+            <option
+              value="30"
+            >
+              30
+            </option>
+          </select>
+          <svg
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </div>
+        <span
+          class="c25 c29"
+        >
+          1-3 of 3
+        </span>
+        <div
+          class="c30"
+        >
+          <button
+            aria-disabled="true"
+            aria-label="First Page"
+            class="c31"
+            disabled=""
+            id="pagination-first-page"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              height="24"
+              role="presentation"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z"
+              />
+              <path
+                d="M24 24H0V0h24v24z"
+                fill="none"
+              />
+            </svg>
+          </button>
+          <button
+            aria-disabled="true"
+            aria-label="Previous Page"
+            class="c31"
+            disabled=""
+            id="pagination-previous-page"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              height="24"
+              role="presentation"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </button>
+          <button
+            aria-disabled="true"
+            aria-label="Next Page"
+            class="c31"
+            disabled=""
+            id="pagination-next-page"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              height="24"
+              role="presentation"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </button>
+          <button
+            aria-disabled="true"
+            aria-label="Last Page"
+            class="c31"
+            disabled=""
+            id="pagination-last-page"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              height="24"
+              role="presentation"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z"
+              />
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
