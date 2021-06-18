@@ -24,8 +24,15 @@ The app is build for production and place the code into `dist` folder
 - Styled Components (CSS-in-JS)
 - [React Data Table](https://github.com/jbetancur/react-data-table-component)
 
-## Bonus
+## 🎁 Bonus
 - Dockerized App
+
+In order Build the image and fire up the container:
+
+- At root build folder <code>docker-compose up</code> 
+- It would create clearcloin-api and clearcoin-web docker images, and start-up the container.
+- You can access to the application opening the following [URL](http://localhost:3001)
+
 
 ## Possible Ideas of Improvements
 - Transfer History

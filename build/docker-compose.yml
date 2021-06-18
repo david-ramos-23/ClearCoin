@@ -1,0 +1,41 @@
+version: '3.7'
+# Define services
+services:
+
+  # App backend service
+  clearcoin-api:
+    # Configuration for building the docker image for the backend service
+    build:
+      context: ../clearcoin-api # Use an image built from the specified dockerfile in the `polling-app-server` directory.
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080" # Forward the exposed port 8080 on the container to port 8080 on the host machine
+    restart: always  
+    networks: # Networks to join (Services on the same network can communicate with each other using their name)
+      - backend
+      - frontend
+
+  clearcoin-web:
+    stdin_open: true
+    container_name: clearcoin-web
+    build:
+      context: ../clearcoin-web/
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 3001:3000
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: npm start
+    restart: always
+    depends_on:
+      - clearcoin-api
+    networks:
+      - frontend
+
+# Networks to be created to facilitate communication between containers
+networks:
+  backend:
+  frontend:    

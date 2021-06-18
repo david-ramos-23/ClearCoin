@@ -26,8 +26,15 @@ mvn spring-boot:run
 - UserController: Retrieve user data, including wallet details.
 - WalletController: Retrieve wallet data and execute transfers.
 
-## Bonus
+## 🎁 Bonus
 - Dockerized App
+
+In order Build the image and fire up the container:
+
+- At root build folder <code>docker-compose up</code> 
+- It would create clearcloin-api and clearcoin-web docker images, and start-up the container.
+- You can access to the application opening the following [URL](http://localhost:3001)
+
 
 ## Possible Ideas of Improvements
 - Add MongoDB as storage layer.

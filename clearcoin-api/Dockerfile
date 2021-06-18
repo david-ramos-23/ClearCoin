@@ -1,17 +1,21 @@
-FROM maven:3.6.0-jdk-11-slim AS build
+FROM openjdk:12 as build
 
-COPY src /home/app/src
+LABEL David Ramos <david.ramos@clearpeaks.com>
 
-COPY pom.xml /home/app
+WORKDIR /workspace/app
 
-RUN mvn -f /home/app/pom.xml clean package
+COPY mvnw .
+COPY .mvn .mvn
+COPY pom.xml .
+COPY src src
 
-FROM adoptopenjdk/openjdk11:latest
+RUN ./mvnw install -DskipTests
+RUN mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)
 
-RUN mkdir /opt/app
-
-COPY japp.jar /opt/app
-
-EXPOSE 8080
-CMD ["java", "-jar", "/opt/app/japp.jar"]
-
+FROM openjdk:12
+VOLUME /tmp
+ARG DEPENDENCY=/workspace/app/target/dependency
+COPY --from=build ${DEPENDENCY}/BOOT-INF/lib /app/lib
+COPY --from=build ${DEPENDENCY}/META-INF /app/META-INF
+COPY --from=build ${DEPENDENCY}/BOOT-INF/classes /app
+ENTRYPOINT ["java","-cp","app:app/lib/*","com.clearpay.clearcoin.ClearCoinApplication"]
